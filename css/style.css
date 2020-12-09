@@ -386,6 +386,12 @@ h1 {
 .features_h2 {
     margin-bottom: 60px;
 }
+.w-200 {
+    max-width: 200px;
+}
+.w-280 {
+    max-width: 280px;
+}
 .red {
   color:  #f55767; 
 }
