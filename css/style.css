@@ -401,3 +401,18 @@ h1 {
 .features {
     margin-top: 100px;
 }
+.companies {
+    padding-top: 80px;
+}
+@media screen and (max-width: 991px) {
+    .features_left {
+        display: none;
+    }
+    .companies__logo {
+        flex-wrap: wrap;
+    }
+    .features_right {
+        justify-content: center;
+        align-items: center;
+    }
+}
