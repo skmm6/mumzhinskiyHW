@@ -309,6 +309,14 @@ h1 {
 }
 .compaines__text {
     color: #242f51;
+    font-weight: 300;
+}
+h2 {
+    font-size: 36px;
+    font-weight: 600;
+}
+.compaines__text>p {
+    font-weight: 400;
 }
 .companies__logo {
     display: flex;
@@ -386,8 +394,8 @@ h1 {
 .features_h2 {
     margin-bottom: 60px;
 }
-.w-200 {
-    max-width: 200px;
+.w-285 {
+    max-width: 285px;
 }
 .w-280 {
     max-width: 280px;
@@ -407,9 +415,7 @@ h1 {
 .features {
     margin-top: 100px;
 }
-.companies {
-    padding-top: 80px;
-}
+
 @media screen and (max-width: 991px) {
     .features_left {
         display: none;
@@ -421,4 +427,34 @@ h1 {
         justify-content: center;
         align-items: center;
     }
+}
+.smart-jackpot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.px20 {
+    font-size: 20px;
+}
+.smart-jackpot__up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.smart-jackpot__up>.left {
+    color: #242f51;
+    max-width: 550px;
+    padding: 70px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 40pt;
+}
+.smart-jackpot__up>.right {
+    color: #242f51;
+    max-width: 550px;
+    padding: 50px 70px;
+    box-sizing: border-box;
+    text-align: left;
+    font-weight: 400;
+    border-left: 2px solid #b9b9b8;
 }
