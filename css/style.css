@@ -526,25 +526,78 @@ h2 {
         border-left: 0px solid #b9b9b8;
         border-top: 1px solid #b9b9b8;
     }
+
     .smart-jackpot__down {
         flex-wrap: wrap;
     }
+
     .smart-jackpot>.smart-jackpot__down {
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
+
     .jackpot__down__box {
         margin-bottom: 25px;
     }
 }
 
 @media screen and (max-width: 580px) {
-    .smart-jackpot__up>.left, .smart-jackpot__up>.right {
+
+    .smart-jackpot__up>.left,
+    .smart-jackpot__up>.right {
         padding: 15px;
     }
 
     .smart-jackpot__up>.left>h2 {
         font-size: 30pt;
+    }
+}
+
+.designed {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.designed-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 450px;
+    justify-content: space-between;
+}
+
+.designed-right h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #242f51;
+    line-height: 50px;
+}
+
+.designed-right a {
+    margin: 15px 0;
+}
+
+@media screen and (max-width: 991px) {
+    .designed {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .designed-left {
+        display: none;
+    }
+    .designed-right {
+        display: flex;
+        flex-direction: column; 
+        align-items: flex-start;
+        max-width: 450px;
+        justify-content: center;
     }
 }
