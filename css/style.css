@@ -880,6 +880,12 @@ margin-top: 40px;
     margin: 20px;
     box-shadow: rgba(0, 0, 0, .1) 0 35px 35px;
 }
+@media screen and (max-width: 691px) {
+    .getawe-boxs {
+        flex-direction: column;
+    }
+}
+
 .brder-b {
     border-bottom: 1px solid #f4f4f4;
 }
@@ -991,6 +997,36 @@ margin-top: 40px;
 .askedquestions h2 {
     margin-bottom: 0;
 }
+
+@media screen and (max-width: 1651px) {
+    .meetclient{
+        background-image: none;
+    }
+    .clien-pos1, .clien-pos2, .clien-pos3, .clien-pos4, .clien-pos5, .clien-pos6, .clien-pos7 {
+        display: none;
+    }
+    .nonegrow {
+        display: none;
+    }
+    .meetclient-content {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+@media screen and (max-width: 845px) {
+    .meetclient-client {
+        flex-direction: column;
+        align-items: center;
+    }
+    .meetclient-lr {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    
+}
+
+
 /* акардион  */ 
 .accordion {
     padding-top: 50px;
@@ -1093,3 +1129,22 @@ margin-top: 40px;
 .footer-soccontact {
     padding-bottom: 30px;
 }
+@media screen and (max-width: 1036px) {
+   .startdays {
+       background-image: none;
+   } 
+    
+}
+@media screen and (max-width: 564px) {
+   .footer-navbar ul {
+       flex-direction: column;
+   }
+    .footer-navbar li {
+    padding: 5px;
+}
+ }
+ @media screen and (max-width: 445px) {
+    .startdays-market {
+        flex-direction: column;
+    }
+  }
